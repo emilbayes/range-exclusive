@@ -1,0 +1,38 @@
+{
+  "name": "range-exclusive",
+  "version": "1.0.0",
+  "description": "Generate a closed range of numbers `[a, b)` with step size `d`",
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/range-exclusive.git"
+  },
+  "keywords": [
+    "range",
+    "exclusive",
+    "exclusive-range",
+    "range-inclusive",
+    "d3.range",
+    "sequence",
+    "series",
+    "negative",
+    "step"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/range-exclusive/issues"
+  },
+  "homepage": "https://github.com/emilbayes/range-exclusive#readme",
+  "dependencies": {
+    "range-inclusive": "^1.0.1"
+  }
+}
