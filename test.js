@@ -13,6 +13,10 @@ test('range, step size', function (assert) {
   assert.deepEqual(rangeExclusive(3, 9, 3), [3, 6])
   assert.end()
 })
+test('range, step size non-divisor', function (assert) {
+  assert.deepEqual(rangeExclusive(2, 5, 2), [2, 4])
+  assert.end()
+})
 test('negative range, step size', function (assert) {
   assert.deepEqual(rangeExclusive(7, 5, -1), [7, 6])
   assert.end()
